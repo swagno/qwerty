@@ -44,7 +44,7 @@ batch_size = 32,
 class_mode = 'binary')
 classifier.fit_generator(training_set,
 steps_per_epoch = 2000,
-epochs = 2,
+epochs = 3,
 validation_data = test_set,
 validation_steps = 2000)
 # Part 3 - Making new predictions
